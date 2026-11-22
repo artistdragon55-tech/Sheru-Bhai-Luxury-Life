@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Sheru Bhai: Luxury Life</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loading"><div class="lion">🦁</div><h2>SHERU BHAI</h2><p>Loading luxury life…</p></div>
+<div id="hud">
+ <div class="top"><div class="brand">👑 SHERU BHAI <small>LUXURY LIFE</small></div><div class="money">💰 ₹<span id="cash">100000000</span></div></div>
+ <div class="mission"><b>MISSION</b><span id="missionText">Explore your mansion and meet your family</span><button id="missionBtn">▶</button></div>
+ <div id="phone"><button id="phoneToggle">📱</button></div>
+ <div id="phonePanel" class="panel hidden"><div class="panelHead"><span>📱 Sheru's Phone</span><button class="close">✕</button></div><div class="apps">
+ <button data-app="bank">🏦<small>Bank</small></button><button data-app="messages">💬<small>Messages</small></button><button data-app="contacts">📞<small>Contacts</small></button><button data-app="map">🗺️<small>Map</small></button><button data-app="missions">⭐<small>Missions</small></button><button data-app="garage">🚘<small>Garage</small></button><button data-app="help">🤝<small>Help</small></button><button data-app="settings">⚙️<small>Settings</small></button>
+ </div><div id="appContent"></div></div>
+ <div id="toast"></div>
+ <div id="controls"><div id="joy"><div id="joyKnob"></div></div><div class="actions"><button id="run">🏃</button><button id="interact">🤝</button><button id="enterCar">🚗</button></div></div>
+ <div id="hint">Move with joystick / WASD · Walk to glowing markers</div>
+</div>
+<script type="module" src="game.js"></script>
+</body></html>
